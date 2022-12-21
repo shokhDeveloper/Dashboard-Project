@@ -1,0 +1,35 @@
+.active{
+    width: 69.5%;
+    /* background: black; */
+    color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+.uploads{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translateX(-50%, -50%);
+    width: 450px;
+    height: 450px;  
+    background: #fff;
+    color: var(--kuk);
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+.uploads img{
+    width: 250px;
+    margin:0 auto;
+}
+.col_active{
+    padding-top: 1rem;
+}
+.class_form{
+    margin: 1rem 0rem;
+}

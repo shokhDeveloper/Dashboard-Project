@@ -1,0 +1,24 @@
+.drivers_active{
+    position: absolute;
+    top: 8.5%;
+    left: 25%;
+    background: black;
+    width: 50%;
+    height: 400px;
+    z-index: 1;
+}
+.col_active{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col_active_textarea{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.col_active_menu{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}

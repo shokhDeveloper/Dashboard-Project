@@ -1,0 +1,9 @@
+.tab_trailer{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 600px;
+    height: 400px;
+    transform: translateX(-50%, -50%);
+    z-index: 1;
+}

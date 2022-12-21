@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Home } from "./Default_Page";
+import { Context } from "./Context";
+import { Routes_Good } from "./Routes_Good/Routes_Good";
+import {useState, useContext} from "react"
+const App = () => {
+    const [collapsed, setCollapsed] = useState(!true)
+    const [block, setBlock] = useState(!true)
+    const [upload, setUpload] = useState("none")
+    const [block_2, setBlock_2] = useState(!true)
+    const [trailer, setTrailer] = useState({
+        display: !true
+    })
+    const [users, setUsers] = useState("Y")
+    return(
+        <>
+        <Context.Provider value={{users, setUsers,trailer,setTrailer,block_2,setBlock_2,upload, setUpload,collapsed, setCollapsed, block, setBlock}}>
+            <Home>
+                <Routes_Good/>
+            </Home>
+        </Context.Provider>
+        </>
+    )
 }
-
 export default App;

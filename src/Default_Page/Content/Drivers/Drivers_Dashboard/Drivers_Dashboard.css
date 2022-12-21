@@ -1,0 +1,9 @@
+.cols_dash{
+    width: 95% ;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+}
