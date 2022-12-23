@@ -27,15 +27,15 @@ export const Header = ({children}) => {
             <Col style={{width: "50%"}}>
                 <ul className="nav__ul">
                     <li className="list__item" >
-                        <Input type="primary" autoFocus  prefix={<SearchOutlined style={{color: "blue"}}/>} placeholder="Search"></Input>
+                        <Input type="primary" autoFocus style={{fontSize: "16px"}}  prefix={<SearchOutlined stylze={{color: "blue" }}/>} placeholder="Search"></Input>
                     </li>
                     <li className="list__item">
-                        <Link>
+                        <Link style={{fontSize: "25px"}}>
                             <span><BellOutlined /></span>
                         </Link>
                     </li>
                     <li className="list__item">
-                        <Link>
+                        <Link  style={{fontSize: "25px"}}>
                             <span><MailOutlined/></span>
                         </Link>
                     </li>

@@ -20,8 +20,8 @@ export const Tab_Trailer = () => {
     return(
         <div className="tab_trailer" style={{display: trailer.display !== true? 
         "none": "block" }}>
-             <Row style={{width: "100%", background: "var(--oq)"}}>
-                <Col style={{width: "100%",padding: "1rem",background: "var(--kuk)", display: "flex", justifyContent: "space-between", alignItems: "center", borderRadius: "10px"}}>
+             <Row style={{width: "100%", background: "#fff", borderRadius: "40px"}}>
+                <Col style={{width: "100%",padding: "1rem",background: "var(--kuk)", display: "flex", justifyContent: "space-between", alignItems: "center", borderRadius: "20px"}}>
                     <Text level={3} style={{fontSize: "26px", color: "#fff"}}>Add Trailer</Text>
                     <Button style={{background: "transparent", border: "1px solid var(--kuk)"}} onClick={handleClick}><CloseOutlined style={{fontSize: "20px", color: "#fff"}}/></Button>
                 </Col>
